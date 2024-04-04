@@ -31,7 +31,7 @@ const Team = () => {
 
   useEffect(()=>{
     const initAOS = async () => {
-      await import ('aos')
+      await import("aos");
       AOS.init({
         duration: 1000,
         easing: 'ease-in-out-cubic',
@@ -44,7 +44,7 @@ const Team = () => {
 
 
   return (
-    <div id="team" className=' pb-[3rem] bg-white' id='chefs'>
+    <div id="team" className=' pb-[3rem] bg-white'>
 
   
     <div className='pt-[5rem] pb-[3rem]' id='chefs'>
