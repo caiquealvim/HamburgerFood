@@ -5,7 +5,7 @@ import { MdFoodBank } from 'react-icons/md'
 
 const Footer = () => {
   return (
-    <div id="footer" className=' pt-[5rem] pb-[3rem]  bg-red-900 opacity-90' id='footer'  >
+    <div id="footer" className=' pt-[5rem] pb-[3rem]  bg-red-900 opacity-90'>
         <div className='w-[80%] pb-[2rem]  border-b-[2px] border-b-gray-300 border-opacity-50 mx-auto
         grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[3rem] items-center'>
             <div>
