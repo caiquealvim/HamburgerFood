@@ -1,6 +1,6 @@
 'use client'
 import React from 'react'
-import TeamCard from './teamCard';
+import TeamCard from './TeamCard';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import AOS from 'aos';
@@ -31,7 +31,7 @@ const Team = () => {
 
   useEffect(()=>{
     const initAOS = async () => {
-      await import("aos");
+      await import ('aos')
       AOS.init({
         duration: 1000,
         easing: 'ease-in-out-cubic',

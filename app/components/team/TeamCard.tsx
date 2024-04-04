@@ -16,7 +16,7 @@ const TeamCard = ({name,image,position}:Props) => {
         {position}
       </p>
       <p className='text-center md:w-[70%] mx-auto text-gray-600 mt-2'>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. In dolorem pariatur mollitia exercitationem doloribus porro,
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. In dolorem pariatur mollitia exercitationem doloribus porro
       </p>
     </div>
   )
